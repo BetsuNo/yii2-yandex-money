@@ -1,14 +1,19 @@
 {
-    "name": "grigorieff/yii2-yandex-money",
-    "description": "Yii2 component for yandex modey integration in your web application",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mike Grigorieff",
-            "email": "grigorief@gmail.com"
-        }
-    ],
-    "require": {
-        "yandex-money/yandex-money-sdk-php": "*"
-    }
+	"name": "betsuno/yii2-yandex-money",
+	"description": "Yii2 component for yandex money integration in your web application",
+	"license": "MIT",
+	"version": "0.1",
+	"authors": [
+		{
+			"name": "Mike Grigorieff",
+			"email": "grigorief@gmail.com"
+		}, {
+			"name": "BetsuNo",
+			"email": "betsuno.git@yandex.ru"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "^2.0",
+		"yandex-money/yandex-money-sdk-php": "*"
+	}
 }
