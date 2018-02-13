@@ -43,7 +43,7 @@ class YMComponent extends Component
 			throw new InvalidConfigException('Redirect_uri can\'t be empty!');
 		}
 
-		$access_token = API::getAccessToken($this->client_id,$this->code,$this->redirect_uri, $this->client_secret);
+		$access_token = API::getAccessToken($this->client_id, $this->code, $this->redirect_uri, $this->client_secret);
 		$this->api = new API($access_token);
 	}
 
